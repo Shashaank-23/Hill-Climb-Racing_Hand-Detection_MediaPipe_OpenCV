@@ -1,19 +1,49 @@
-# Hill-Climb-Racing_Hand-Detection_MediaPipe_OpenCV
-Automated Hill Climb Racing game with hand detection using Media pipe and OpenCV in Python.
 
-# WHAT THE PROJECT DOES ?
-This project focusses on automating Hill Climb Racing game using open-source frameworks such as MediaPipe and OpenCV that provide a wide range of libraries and tools 
-to apply Machine Learning(ML) and Artificial Intelligence(AI) techniques over arbitrary sensory data such as image, video and audio.
+# Hand Detection Game Controller using MediaPipe and OpenCV in Python
 
-This project mainly involves raw video and image data which is taken from live webcam feed and the desired output (i.e. controlling the mobility of a vehicle) is 
-rendered based on the received input.
+This project utilizes AI/ML frameworks like MediaPipe and OpenCV for hand detection to control Hill Climb Racing game.
 
-# WHY THE PROJECT IS USEFUL ?
-This project is useful to visualize and understand how AI/ML techniques work in realtime scenarios...and at the same time looks cool! :)  
+Right hand - Gas
 
-# WHO MAINTAINS AND CONTRIBUTES TO THE PROJECT ?
-Currently, this project is maintained by me @Shashaank-23 but anyone with the will and enthusiasm to work on the same can play around and have fun with this code.
+Left hand - Brake
 
-Happy Coding!
 
-~ Shashaank Nair (15-08-23)
+## Installation
+
+First, install Anaconda, which is an open source environment for Python data science from the given link - 
+
+https://www.anaconda.com/download
+
+Once the installation is complete, open  Anaconda Navigator application and launch Jupyter Notebook. Click on New -> Python3 kernel and install the required dependencies. In order to do that, run the following commands - -
+
+```bash
+  !pip install mediapipe opencv-python
+  !pip install pyautogui
+```
+    
+## Deployment
+
+To deploy this project, import the necessary libraries using the following commands -
+
+```bash
+  import numpy as np
+  import mediapipe as mp
+  import cv2
+  import pyautogui
+
+```
+
+## Documentation
+
+[Documentation](https://developers.google.com/mediapipe/solutions/guide)
+
+
+## Authors
+
+- [@Shashaank-23](https://github.com/Shashaank-23)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at shashaank2312@gmail.com
+
