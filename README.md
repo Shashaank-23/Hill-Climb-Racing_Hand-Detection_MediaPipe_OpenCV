@@ -20,6 +20,11 @@ Once the installation is complete, open  Anaconda Navigator application and laun
   !pip install mediapipe opencv-python
   !pip install pyautogui
 ```
+
+## Screenshots
+![Brake](https://github.com/Shashaank-23/Hill-Climb-Racing_Hand-Detection_MediaPipe_OpenCV/assets/82996303/17d7b18e-984a-4849-8b60-440c3816dc69)
+![Gas](https://github.com/Shashaank-23/Hill-Climb-Racing_Hand-Detection_MediaPipe_OpenCV/assets/82996303/661707d9-d19d-4d8a-b1f7-f7e8885eb2e8)
+
     
 ## Deployment
 
